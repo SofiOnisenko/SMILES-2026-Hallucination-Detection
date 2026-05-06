@@ -73,13 +73,6 @@ The final pipeline uses:
 
 The final solution is focused on improving the stability of hallucination detection using hidden-state representations extracted from the Qwen2.5-0.5B language model.
 
-Only the components allowed by the competition rules were modified:
-- `aggregation.py`
-- `probe.py`
-- `splitting.py`
-
-The infrastructure files responsible for model loading and evaluation remained unchanged.
-
 ## Aggregation Strategy
 
 The original baseline used the hidden representation of the last valid token from the final transformer layer. In practice, this approach turned out to be quite sensitive to specific token positions, and small changes in the split sometimes noticeably affected the metric.
