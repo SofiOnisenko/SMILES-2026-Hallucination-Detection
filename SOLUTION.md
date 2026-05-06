@@ -11,9 +11,7 @@ https://github.com/SofiOnisenko/SMILES-2026-Hallucination-Detection
 
 This project focuses on hallucination detection in small language models using hidden-state representations extracted from transformer layers.
 
-The main goal was not only to improve the final AUROC metric, but also to build a solution that generalizes more reliably across different data splits. During development, special attention was paid to reducing overfitting, evaluating stability across folds, and comparing different aggregation strategies for hidden representations.
-
-A large number of experiments showed that increasing model complexity alone did not necessarily improve generalization. In many cases, simpler and more stable approaches performed better on unseen data.
+The main goal was not only to improve the final AUROC metric, but also to build a solution that generalizes more reliably across different data splits. During development, special attention was paid to reducing overfitting, evaluating stability across folds, and comparing different aggregation strategies for hidden representations, a large number of experiments showed that increasing model complexity alone did not necessarily improve generalization. In many cases, simpler and more stable approaches performed better on unseen data.
 
 ---
 
